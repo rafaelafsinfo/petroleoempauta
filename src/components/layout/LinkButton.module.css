@@ -1,0 +1,26 @@
+
+
+.img{
+    width: 20em;
+    height: 20em;
+    padding: 0.5em;
+    transition: 0.5s;
+    margin: 0.5em;
+    grid-row: auto;
+    border-radius: 10%;
+    grid-template-columns: 2fr;
+}
+
+.img:hover{
+    transition: 0.5s;
+    padding: 1em;
+    background-color: #f66;
+}
+
+.img:active{
+    transition: 0.5s;
+    padding: 1em;
+    background-color: #6f6;
+}
+
+
